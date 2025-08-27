@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+a{
+    color: #FFFFFF;
+    font-family: Open Sans;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 12px;
+leading-trim: NONE;
+line-height: 160%;
+letter-spacing: 0%;
+text-transform: uppercase;
+
+}
+
+
+a:hover{
+    color: #F57520;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+}
+
+
+
+
+.background{
+    background-image: url("./1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.left{
+    padding-left: 320px;
+    padding-top: 80px;
+}
+
+
+
+h1{
+    font-family: Open Sans;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 96px;
+    leading-trim: NONE;
+    line-height: 123%;
+    letter-spacing: 2%;
+    color: #FFFFFF;
+    width: 200px;
+    padding-bottom: 48px;
+}
+
+
+.left>p{
+    font-family: Open Sans;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 160%;
+    letter-spacing: 1%;
+    color: white;
+    width: 645px;
+    padding-bottom: 48px;
+}
+
+
+.left>button{
+    color: #FFFFFF;
+    background: #F57520;
+    padding: 15px 45px;
+    border-radius: 10px;
+    border: none;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 123%;
+    letter-spacing: 0%;
+    text-align: right;
+    
+}
+
+
+h2{
+    font-family: Open Sans;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 64px;
+leading-trim: NONE;
+line-height: 123%;
+letter-spacing: 5%;
+text-align: center;
+color: #101010;
+padding-top: 59px;
+padding-bottom: 170px;
+}
+
+
+
+.section_1{
+    background: grey;
+    height: 1500px;
+}
+
+
+.qator{
+    background: #000;
+    width: 400px;
+    height: 465px;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+.qator:hover{
+    background: #F57520;
+    color: white;
+}
+
+
+
+
+.qator>p{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 160%;
+    letter-spacing: 1%;
+    color: #101010;
+    padding-left: 27px;
+}
+
+
+
+.qator>p{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 160%;
+    letter-spacing: 1%;
+    color: white;
+    padding-left: 27px;
+}
+
+h6{
+    font-family: Open Sans;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 16px;
+leading-trim: NONE;
+line-height: 160%;
+letter-spacing: 0%;
+padding-bottom: 50px;
+padding-left: 27px;
+}
+
+
+.big{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-left: 150px;
+}
+
+
+
+
+h3{
+    font-family: Open Sans;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 40px;
+leading-trim: NONE;
+line-height: 123%;
+letter-spacing: 5%;
+width: 920px;
+color: #FFFFFF;
+padding-top: 50px;
+padding-left: 315px;
+}
+
+
+.katta{
+    background: #F57520;
+    height: 636px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.sorov{
+    padding-top: 65px;
+    width:1000px;
+}
+
+
+form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-left: 315px;
+}
+
+
+input{
+    width: 302px;
+    height: 46px;
+    border-radius: 10px;
+    border: none;
+}
+
+input::placeholder{
+    padding-left: 16px;
+    color: #B3B3B3;
+}
+
+
+
+textarea{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 0px 0px 16px;
+    color: #B3B3B3;
+    width: 608px;
+    height: 154px;
+}
+
+
+
+form>button{
+    width: 615px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    leading-trim: NONE;
+    line-height: 123%;
+    letter-spacing: 0%;
+    color: #F57520;
+}
+
+.TEXT{
+    background: #F57520;
+}
+
+
+
+.rasm>img{
+    width: 500px;
+    height: 630px;
+}
+
+
+.section_2>img{
+    width: 1520px;
+    height: 500px;
+
+
+}
+
+
+footer{
+    background: #000;
+    padding: 102px 0px;
+}
